@@ -22,7 +22,7 @@ private:
     int state; /**< Thread state (READY, RUNNING, BLOCKED) */
     char* data; /**< Stack pointer for the thread */
     int quantums; /**< Number of quantums the thread has run */
-    int quantumToWakeUp; /** its the thread is not sleep, whis flied will get -1;*/
+    int quantumToWakeUp; /** if the thread is not sleep = -1;*/
     thread_entry_point entryPoint; /**< Function pointer to the thread's entry point */
 
     /**
