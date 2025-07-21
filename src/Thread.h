@@ -1,4 +1,4 @@
-#include <setjmp.h> // Include necessary header for handling non-local jumps
+#include <setjmp.h> // for non-local jumps
 
 #ifndef THREAD_H
 #define THREAD_H
