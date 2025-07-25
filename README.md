@@ -1,5 +1,6 @@
 # User-Level Thread Library (C++)
-This project implements a User-Level Thread (ULT) Library in C++ as part of an Operating Systems assignment. The library enables the creation, management, and scheduling of threads at the user level, bypassing the kernel’s native thread handling.
+This project implements a User-Level Thread (ULT) Library in C++ as part of an Operating Systems assignment. 
+The library enables the creation, management, and scheduling of threads at the user level, bypassing the kernel’s native thread handling.
 
 ## Key Features:
   * Thread Management: Supports creating, terminating, blocking, and resuming threads. Each thread is assigned a unique ID, and the main thread (ID 0) is always present.  
