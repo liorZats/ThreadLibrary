@@ -18,12 +18,12 @@ typedef unsigned long address_t;
  */
 class Thread {
 private:
-    int id; /**< Thread ID */
-    int state; /**< Thread state (READY, RUNNING, BLOCKED) */
-    char* data; /**< Stack pointer for the thread */
-    int quantums; /**< Number of quantums the thread has run */
-    int quantumToWakeUp; /** if the thread is not sleep = -1;*/
-    thread_entry_point entryPoint; /**< Function pointer to the thread's entry point */
+    int id; // Thread ID 
+    int state; // Thread state (READY, RUNNING, BLOCKED) 
+    char* data; //Stack pointer for the thread 
+    int quantums; // Number of quantums the thread ran
+    int quantumToWakeUp; // if the thread is not sleeping == -1
+    thread_entry_point entryPoint; // Function pointer to the thread's entry point
 
     /**
    * @brief Translates an address for use with `sigsetjmp`/`siglongjmp`.
